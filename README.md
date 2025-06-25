@@ -1,88 +1,65 @@
 # 🗓️ AcademicHub
 
-**AcademicHub** é um sistema de calendário e anotações escolares desenvolvido com **Nuxt 3** e **Supabase**. O objetivo é ajudar estudantes a organizarem sua rotina escolar com praticidade, colaborando com eventos e criando notas personalizadas.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AcademicHub-app/AcademicHub/refs/heads/main/public/logo.png" width="200" alt="Logo AcademicHub" />
+</p>
+
+**AcademicHub** é uma plataforma web desenvolvida com **Nuxt 3** e **Supabase** que combina calendário escolar e sistema de anotações em um só lugar. Ideal para estudantes que buscam mais organização e autonomia no dia a dia, com colaboração em tempo real e interface responsiva.
+
+---
+
+## 🎯 Objetivo do Projeto
+
+A organização e o acesso eficiente aos materiais são fundamentais para o desempenho acadêmico e a evolução dos estudantes ao longo de sua trajetória educacional. No entanto, desafios como a dispersão de conteúdos em diferentes plataformas e a dificuldade em acompanhar prazos e compromissos ainda comprometem significativamente o processo de aprendizagem.
+
+Nesse contexto, o **AcademicHub** surge como uma solução eficaz: um sistema digital integrado que centraliza calendários, tarefas, anotações e materiais de apoio em um único ambiente. Dessa forma, promove uma rotina acadêmica mais organizada, acessível e produtiva.
+
+---
+
+## 📌 Índice
+
+- [🚀 Funcionalidades](#-funcionalidades)  
+- [🧱 Tecnologias Utilizadas](#-tecnologias-utilizadas)  
+- [✨ Destaques Técnicos](#-destaques-técnicos)  
+- [🧪 Funcionalidades Futuras](#-funcionalidades-futuras)
 
 ---
 
 ## 🚀 Funcionalidades
 
-- 📅 **Calendário interativo** com eventos em tempo real    
-- 👨‍🎓 **Autenticação de usuários** (login/registro)  
-- 🔧 **Edição colaborativa de eventos** (todos os usuários podem editar o calendário)  
-- 📦 Integração com **Supabase** (Auth + Database)  
-- ⚡ Interface rápida com **Vue 3**
+- 📅 **Calendário interativo** com atualização em tempo real  
+- 🧑‍💻 **Autenticação de usuários** com login e registro via Supabase  
+- 🤝 **Edição colaborativa de eventos**  
+- 📋 **Notas e lembretes personalizados** (em desenvolvimento)  
+- ⚡ Interface rápida e responsiva com **Vue 3**
 
 ---
 
-## 🖼️ Demonstração
+## 🧱 Tecnologias Utilizadas
 
-> Beta com falta de funcionalidades: 
-
----
-
-## 🧱 Tecnologias usadas
-
-| Stack        | Tecnologias                                          |
-|--------------|-------------------------------------------------------|
-| 💚 Frontend  | Nuxt 3, Vue 3, TailwindCSS, VueCal                    |
-| 🛠️ Backend   | Supabase (Database + Auth)                            |
-| 🎨 Estilo    | Tailwind + UI personalizada                           |
-| 🔒 Auth      | Supabase Auth (via API)                               |
+| Camada        | Tecnologias                                |
+|---------------|---------------------------------------------|
+| 💚 Frontend   | Nuxt 3, Vue 3, TailwindCSS, VueCal          |
+| 🔐 Backend    | Supabase (Database + Auth)                  |
+| 🎨 UI         | TailwindCSS + componentes personalizados    |
+| 🧾 Autenticação | Supabase Auth via API                      |
 
 ---
 
-## ⚙️ Instalação
+## ✨ Destaques Técnicos
 
-1. **Clone o projeto:**
-
-```bash
-git clone https://github.com/LightDNZ/AcademicHub.git
-cd AcademicHub
-```
-
-2. **Instale as dependências:**
-
-```bash
-npm install
-```
-
-3. **Configure o Supabase:**
-
-Crie um arquivo `.env` com as credenciais:
-
-```env
-SUPABASE_URL=https://xxxx.supabase.co
-SUPABASE_ANON_KEY=seu_anon_key
-```
-
-4. **Inicie o servidor:**
-
-```bash
-npm run dev
-```
-
-Acesse: [http://localhost:3000](http://localhost:3000)
-
+- ✅ Sincronização em tempo real com Supabase  
+- ✅ Interface mobile-first  
+- ✅ Integração manual e flexível com Supabase  
+- ✅ Estrutura otimizada para escalar funcionalidades futuras  
 
 ---
 
-## ✨ Destaques técnicos
+## 🧪 Funcionalidades Futuras
 
-- Eventos do calendário são atualizados em tempo real via Supabase  
-- Interface leve e adaptada a dispositivos móveis  
-- Integração manual com Supabase (sem módulo oficial)  
-
----
-
-## 🧪 Funcionalidades futuras
-
-- 🔔 Notificações automáticas de eventos próximos  
-- 📱 PWA para uso offline  
-- 👨‍🏫 Perfis de professores/alunos (roles)  
-- 🔄 Modo admin (opcional no futuro)  
-- 📊 Estatísticas de uso para usuários
-- ✍️ Notas privadas salvas localmente com sincronização futura
-- 🌙 **Modo escuro/claro**  
-
----
-
+- 🔔 Notificações automáticas de eventos  
+- 📱 Suporte a PWA (uso offline)  
+- 👥 Perfis com papéis (aluno, professor, admin)  
+- 📊 Estatísticas e análise de uso  
+- ✍️ Notas privadas com sincronização opcional  
+- 🌙 Modo claro/escuro automático  
