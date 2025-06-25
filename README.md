@@ -1,8 +1,7 @@
-# 🗓️ AcademicHub
+# AcademicHub
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AcademicHub-app/AcademicHub/refs/heads/main/public/logo.png" width="200" alt="Logo AcademicHub" />
-</p>
+
+<img src="https://raw.githubusercontent.com/AcademicHub-app/AcademicHub/refs/heads/main/public/logo.png" alt="Logo AcademicHub" width="160px" align="right" />
 
 **AcademicHub** é uma plataforma web desenvolvida com **Nuxt 3** e **Supabase** que combina calendário escolar e sistema de anotações em um só lugar. Ideal para estudantes que buscam mais organização e autonomia no dia a dia, com colaboração em tempo real e interface responsiva.
 
