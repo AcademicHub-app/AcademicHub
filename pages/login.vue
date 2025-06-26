@@ -17,7 +17,7 @@
           <label for="" class="text-zinc-300 text-sm block mb-0.5">Email</label>
           <input
             v-model="email"
-            placeholder="gabriel@dscalendar.com"
+            placeholder="gabriel@academichub.com"
             type="email"
             class="block w-full bg-[#27272A] border border-[#3F3F46] rounded text-white px-4 py-2 placeholder:text-zinc-500 text-sm"
           />
